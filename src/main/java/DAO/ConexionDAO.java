@@ -12,9 +12,9 @@ import java.sql.DriverManager;
  * @author Wilmer de Mata
  */
 public class ConexionDAO {
-        private String url = "jdbc:mysql://localhost:3306/bibloteca"; // URL de la base de datos
+        private String url = "jdbc:mysql://localhost:3306/biblioteca"; // URL de la base de datos
     private String usuario = "root";
-    private String contraseña = "root";
+    private String contraseña = "admin";
    public Connection conexionMysql() throws Exception {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection conexion = DriverManager.getConnection(getUrl(), getUsuario(), getContraseña());

@@ -24,7 +24,7 @@ public class Transiciones {
     public void VentanaCrear() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/CrearCuenta.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/CrearCuenta.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -33,7 +33,7 @@ public class Transiciones {
         public void VentanaAutores() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/LAutores.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/LAutores.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -42,7 +42,7 @@ public class Transiciones {
      public void VentanaTiposLibros() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/TipoLibro.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/TipoLibro.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -51,7 +51,7 @@ public class Transiciones {
     public void VentanaLogin() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/Login.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/Login.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -60,7 +60,7 @@ public class Transiciones {
     public void VentanaAquilar() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/Prestar.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/Prestar.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -69,7 +69,7 @@ public class Transiciones {
     public void VentanaPrestar() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/Devolucion.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/Devolucion.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -78,7 +78,7 @@ public class Transiciones {
     public void VentanaHomeAlquiler() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/HomeAlquier.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/HomeAlquier.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -87,7 +87,7 @@ public class Transiciones {
     public void VentanaIngresoLibro() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/IngresarLibro.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/IngresarLibro.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -96,7 +96,7 @@ public class Transiciones {
     public void VentanaHomeLibro() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/HomeLibros.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/HomeLibros.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -105,7 +105,7 @@ public class Transiciones {
     public void VentanaActuLibro() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/ActualizarLibro.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/ActualizarLibro.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -114,7 +114,7 @@ public class Transiciones {
     public void VentanaMostrarusuario() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/LUsuarios.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/LUsuarios.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -123,7 +123,7 @@ public class Transiciones {
     public void VentanaActualizarusuario() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/AUsuarios.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/AUsuarios.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -132,7 +132,7 @@ public class Transiciones {
     public void VentanaHome() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/Home.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/Home.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -141,7 +141,7 @@ public class Transiciones {
     public void HomeUsuarios() {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/HomeUsuarios.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/HomeUsuarios.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }

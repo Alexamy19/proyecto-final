@@ -47,7 +47,7 @@ public void Ingresar() {
     if (usuarioEncontrado) {
         ExternalContext externalContext = FacesContext.getCurrentInstance().getExternalContext();
         try {
-            externalContext.redirect("http://localhost:8080/Proyectofinal/Pages/Home.xhtml"); // Reemplaza esta URL con la que desees abrir.
+            externalContext.redirect("http://localhost:8082/Proyectofinal/Pages/Home.xhtml"); // Reemplaza esta URL con la que desees abrir.
         } catch (IOException ex) {
             Logger.getLogger(Transiciones.class.getName()).log(Level.SEVERE, null, ex);
         }
